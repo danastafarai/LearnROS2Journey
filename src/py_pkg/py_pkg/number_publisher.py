@@ -6,7 +6,8 @@ from rclpy.node import Node
 class MyCustomNode(Node):
     def __init__(self):
         super().__init__("number_publisher")
-        
+        #TODO: Crate node
+
 
 def main(args=None):
     rclpy.init(args=args)
